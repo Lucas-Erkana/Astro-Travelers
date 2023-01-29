@@ -34,10 +34,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Space Traveller's Hub] <a name="about-project"></a>
+# 📖 [AstroTravellers] <a name="about-project"></a>
 
 
-**[[Space Traveller's Hub]** is a react and redux based application that also links to other componenets but on a single page
+**[[AstroTravellers]** is a react and redux based application that also links to other componenets but on a single page
 
 ## 🛠 Built With <a name="ReactJS and Redux">
 

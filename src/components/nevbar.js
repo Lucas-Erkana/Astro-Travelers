@@ -15,7 +15,7 @@ const Navbar = () => (
       <nav className={styles.navbar}>
         <div className={styles.logo}>
           <img className={styles.logoImg} src={Logo} alt="logo" />
-          <h1 className={styles.logo_text}>Space Travelers&apos; Hub</h1>
+          <h1 className={styles.logo_text}>Astro Travellers&apos;</h1>
         </div>
         <div className={styles.ul_list}>
           <ul className={styles.ul}>
