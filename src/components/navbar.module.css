@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #b6b5b5;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImg {
+  display: flex;
+  width: 3rem;
+}
+
+.logo-text {
+  display: flex;
+}
+
+.ul-list {
+  display: flex;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.rockets {
+  text-decoration: none;
+}
+
+.rockets:focus {
+  color: #1111e4;
+}
+
+.missions {
+  text-decoration: none;
+}
+
+.missions:focus {
+  color: #1111e4;
+}
+
+.dragons_cont {
+  display: flex;
+  flex-direction: column;
+  width: 7rem;
+  border-left: 3px solid #979696;
+  padding-left: 2rem;
+}
+
+.dragonss {
+  text-decoration: none;
+}
+
+.dragonss:focus {
+  color: #1111e4;
+}
+
+.dragons {
+  text-decoration: none;
+}
+
+.dragons:focus {
+  color: #1111e4;
+}
