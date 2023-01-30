@@ -4,14 +4,12 @@
   box-sizing: border-box;
 }
 
-
 .navbar {
   height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 2%;
 }
-
 
 .logo {
   display: flex;
@@ -21,7 +19,6 @@
   width: 400px;
 }
 
-
 .logoImg {
   display: flex;
   flex-direction: row;
@@ -29,18 +26,15 @@
   height: 70px;
 }
 
-
 .logo-text {
   display: flex;
   flex-direction: row;
 }
 
-
 .ul-list {
   display: flex;
   align-items: center;
 }
-
 
 .ul {
   display: flex;
@@ -48,12 +42,10 @@
   gap: 2rem;
 }
 
-
 ul {
   list-style: none;
   text-decoration: none;
 }
-
 
 .rockets:active {
   color: #4141ff;
@@ -61,13 +53,11 @@ ul {
   text-decoration: underline;
 }
 
-
 .missions:active {
   color: #4141ff;
   font-size: 20px;
   text-decoration: underline;
 }
-
 
 .dragonss:active {
   color: #4141ff;
@@ -75,20 +65,17 @@ ul {
   text-decoration: underline;
 }
 
-
 .dragons:active {
   color: #4141ff;
   font-size: 20px;
   text-decoration: underline;
 }
 
-
 .vertical-line {
   width: 2px;
   height: 2rem;
   background-color: rgb(145, 145, 145);
 }
-
 
 .horizental-line {
   display: flex;
