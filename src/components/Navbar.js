@@ -2,6 +2,8 @@ import React from 'react';
 import {
   BrowserRouter as Router, Routes, Route, Link,
 } from 'react-router-dom';
+import Rockets from '../pages/Rockets';
+import Missions from './missions';
 import Myprofile from './myprofile';
 import Logo from '../images/planet.png';
 import styles from './navbar.module.css';
@@ -34,15 +36,6 @@ const Navbar = () => (
                 Missions
               </Link>
             </li>
-            <li>
-              <Link
-                style={{ textDecoration: 'none' }}
-                className={styles.dragonss}
-                to="/Dragons"
-              >
-                Dragons
-              </Link>
-            </li>
             <li className={styles.dragons_cont}>
               <Link
                 style={{ textDecoration: 'none' }}
@@ -56,6 +49,8 @@ const Navbar = () => (
         </div>
       </nav>
       <Routes>
+        <Route path="/" element={<Rockets />} />
+        <Route path="/Missions" element={<Missions />} />
         <Route path="/Profile" element={<Myprofile />} />
       </Routes>
     </div>
