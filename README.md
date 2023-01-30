@@ -142,7 +142,7 @@ To run tests, run the following command:
 <br>
 <img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/@mukama_steven)
 <br>
-<img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn]https://www.linkedin.com/in/stevenmukama/)
+<img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn](https://www.linkedin.com/in/stevenmukama/)
 
 
 
