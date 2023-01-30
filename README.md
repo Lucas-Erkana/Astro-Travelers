@@ -78,7 +78,7 @@
 
 > Add a link to your deployed project.
 
-- <a href="https://astro-ravellers.onrender.com)" target="_blank">Live Demo Link</a>
+- <a href="https://astro-ravellers.onrender.com" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
