@@ -1,26 +1,25 @@
 import React from 'react';
-// Routes, Route,
 import {
-  BrowserRouter as Router, Link,
+  BrowserRouter as Router, Routes, Route, Link,
 } from 'react-router-dom';
+import Myprofile from './myprofile';
 import Logo from '../images/planet.png';
-import './Navbar.css';
+import styles from './navbar.module.css';
 
 const Navbar = () => (
   <Router>
     <div>
-      <nav className="navbar">
-
-        <div className="logo">
-          <img className="logoImg" src={Logo} alt="logo" />
-          <h1 className="logo-text">Space Travelers&apos; Hub</h1>
+      <nav className={styles.navbar}>
+        <div className={styles.logo}>
+          <img className={styles.logoImg} src={Logo} alt="logo" />
+          <h1 className={styles.logo_text}>Astro Travellers&apos;</h1>
         </div>
-        <div className="ul-list">
-          <ul className="ul">
+        <div className={styles.ul_list}>
+          <ul className={styles.ul}>
             <li>
               <Link
                 style={{ textDecoration: 'none' }}
-                className="rockets"
+                className={styles.rockets}
                 to="/"
               >
                 Rockets
@@ -29,8 +28,8 @@ const Navbar = () => (
             <li>
               <Link
                 style={{ textDecoration: 'none' }}
-                className="missions"
-                to="missions"
+                className={styles.missions}
+                to="/Missions"
               >
                 Missions
               </Link>
@@ -38,18 +37,17 @@ const Navbar = () => (
             <li>
               <Link
                 style={{ textDecoration: 'none' }}
-                className="Dragonss"
-                to="Dragons"
+                className={styles.dragonss}
+                to="/Dragons"
               >
                 Dragons
               </Link>
             </li>
-            <div className="vertical-line" />
-            <li>
+            <li className={styles.dragons_cont}>
               <Link
                 style={{ textDecoration: 'none' }}
-                className="dragons"
-                to="profile"
+                className={styles.dragons}
+                to="/Profile"
               >
                 My Profile
               </Link>
@@ -57,7 +55,9 @@ const Navbar = () => (
           </ul>
         </div>
       </nav>
-      <div className="horizental-line" />
+      <Routes>
+        <Route path="/Profile" element={<Myprofile />} />
+      </Routes>
     </div>
   </Router>
 );
