@@ -34,10 +34,10 @@
 - [📝 License](#license)
 
 
-# 📖 [AstroTravellers] <a name="about-project"></a>
+# 📖 AstroTravellers <a name="about-project"></a>
 
 
-**[[AstroTravellers]** is a react and redux based application that also links to other components but on a single page
+**AstroTravellers** is a react and redux based application that also links to other components but on a single page
 
 ## 🛠 Built With <a name="ReactJS and Redux">
 
@@ -67,7 +67,6 @@
 > Describe between 1-3 key features of the application.
 
 - **[Single page app]**
-- **[Dragon]**
 - **[Rockets]**
 - **[mission]**
 
@@ -75,11 +74,11 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo">N/A</a>
+## 🚀 Live Demo <a name="live-demo" >N/A</a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://astro-ravellers.onrender.com)
+- <a href="https://astro-ravellers.onrender.com)" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,6 +210,6 @@ I would like to thank my Partner for great collaboration @Ade179
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](https://github.com/Lucash2022/React-Group-Project/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
