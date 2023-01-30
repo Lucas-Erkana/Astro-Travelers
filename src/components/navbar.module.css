@@ -85,3 +85,43 @@ ul {
 .dragons:focus {
   color: #1111e4;
 }
+
+.rockets:active {
+  text-decoration: underline;
+  background-color: aqua;
+}
+
+.dragonss:active {
+  text-decoration: underline;
+  background-color: aqua;
+}
+
+.dragons_cont:active {
+  text-decoration: underline;
+  background-color: aqua;
+}
+
+.missions:active {
+  text-decoration: underline;
+  background-color: aqua;
+}
+
+.dragonss:hover {
+  text-decoration: underline;
+  background-color: aqua;
+}
+
+.dragons_cont:hover {
+  text-decoration: underline;
+  background-color: aqua;
+}
+
+.missions:hover {
+  text-decoration: underline;
+  background-color: aqua;
+}
+
+.rockets:hover {
+  text-decoration: underline;
+  background-color: aqua;
+}
