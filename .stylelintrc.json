@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "extends": ["stylelint-config-standard"],
   "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
   "rules": {
@@ -19,24 +18,3 @@
   },
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
 }
-=======
-    "extends": ["stylelint-config-standard"],
-    "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
-    "rules": {
-      "at-rule-no-unknown": [
-        true,
-        {
-          "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
-        }
-      ],
-      "scss/at-rule-no-unknown":  [
-        true,
-        {
-          "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
-        }
-      ],
-      "csstree/validator": true
-    },
-    "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
-  }
->>>>>>> 21fbec6 (Install React Redux, Redux Logger and React Router.)
