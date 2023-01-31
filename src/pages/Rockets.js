@@ -1,9 +1,10 @@
+/* eslint-disable */
 import React, { useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import RocketsData from '../components/rocketsData';
 import { fetchRockets } from '../redux/rockets/rocketSlice';
 
-function Rockets() {
+const Rockets = () => {
   const dispatch = useDispatch();
   const shouldFetch = useRef(true);
   const rocketArr = useSelector((state) => state.rockets);
@@ -15,7 +16,7 @@ function Rockets() {
         dispatch(fetchRockets());
       }
     }
-  }, [dispatch, rocketArr.length]);
+  }, [dispatch]);
 
   if (rocketArr.length > 0) {
     return (
@@ -34,6 +35,6 @@ function Rockets() {
     );
   }
   return '';
-}
+};
 
 export default Rockets;

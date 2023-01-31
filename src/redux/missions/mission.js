@@ -2,10 +2,9 @@ const FETCH_MISSION = 'spacetravelers/missions/FETCH_MISSION';
 const BOOK_MISSION = 'spacetravelers/missions/BOOK_MISSION';
 const UNBOOK_MISSION = 'spacetravelers/missions/UNBOOK_MISSION';
 
-const initialState = [];
-
-const missionReducer = (state = initialState, action) => {
-  switch (action.type) {
+const missionReducer = (state = [], action = {}) => {
+  const { type = '' } = action;
+  switch (type) {
     case FETCH_MISSION:
       return action.mission;
     case BOOK_MISSION:

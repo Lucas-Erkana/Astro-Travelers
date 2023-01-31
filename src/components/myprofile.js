@@ -6,6 +6,7 @@ import styles from './myprofile.module.css';
 
 function Myprofile() {
   const missionsData = useSelector((state) => state.missions);
+  const dragonsData = useSelector((state) => state.dragons);
   const rocketsData = useSelector((state) => state.rockets);
 
   return (
@@ -32,7 +33,17 @@ function Myprofile() {
           })}
         </ul>
       </div>
-
+      <div className={styles.reserved_dragons}>
+        <h2>My Dragons</h2>
+        <ul className={styles.dragons_list}>
+          {dragonsData.map((dragon) => {
+            if (dragon.reserved) {
+              return <li key={dragon.id}>{dragon.name}</li>;
+            }
+            return '';
+          })}
+        </ul>
+      </div>
     </div>
   );
 }

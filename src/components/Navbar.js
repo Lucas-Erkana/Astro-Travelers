@@ -4,11 +4,12 @@ import {
 } from 'react-router-dom';
 import Rockets from '../pages/Rockets';
 import Missions from './missions';
+import Dragons from '../pages/Dragon';
 import Myprofile from './myprofile';
 import Logo from '../images/planet.png';
 import styles from './navbar.module.css';
 
-function Navbar() {
+const Navbar = function () {
   return (
     <Router>
       <div>
@@ -37,6 +38,15 @@ function Navbar() {
                   Missions
                 </Link>
               </li>
+              <li>
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  className={styles.dragonss}
+                  to="/Dragons"
+                >
+                  Dragons
+                </Link>
+              </li>
               <li className={styles.dragons_cont}>
                 <Link
                   style={{ textDecoration: 'none' }}
@@ -52,11 +62,12 @@ function Navbar() {
         <Routes>
           <Route path="/" element={<Rockets />} />
           <Route path="/Missions" element={<Missions />} />
+          <Route path="/Dragons" element={<Dragons />} />
           <Route path="/Profile" element={<Myprofile />} />
         </Routes>
       </div>
     </Router>
   );
-}
+};
 
 export default Navbar;
