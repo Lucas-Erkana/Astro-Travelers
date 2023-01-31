@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  
+
 
   <h3><b>Astro Travellers'</b></h3>
 
@@ -33,10 +33,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Astro Travellers] <a name="about-project"></a>
+# 📖 Astro Travellers' <a name="about-project"></a>
 
 
-**[Astro Travellers]** is a react and redux based application that also links to other componenets but on a single page
+**Astro Travellers'** is a react and redux based application that also links to other components but on a single page
 
 ## 🛠 Built With <a name="ReactJS and Redux">
 
@@ -66,7 +66,6 @@
 > Describe between 1-3 key features of the application.
 
 - **[Single page app]**
-- **[Dragon]**
 - **[Rockets]**
 - **[mission]**
 
@@ -74,11 +73,11 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo">N/A</a>
+## 🚀 Live Demo <a name="live-demo" >N/A</a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- <a href="https://astro-ravellers.onrender.com" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,17 +125,24 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name=""></a>
 
-> Mention all of the collaborators of this project.
+<h4>Lucas Erkana</h4>
 
-👤 **Lucas Erkana**
+<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucash2022)
+<br>
+<img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/@Lucas_David_22)
+<br>
+<img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn](https://www.linkedin.com/in/lucas-erkana/)
+  <br>
+<img src="/images/facebook.svg" alt="logo" width="18"  height="18" />[facebook](https://www.facebook.com/lucash.toni)
 
-- GitHub: [@githubhandle]()
-- LinkedIn: [LinkedIn]()
+<h4>Steven Mukama</h4>
 
-👤 **Steven Mukama**
+<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/stevenmukama)
+<br>
+<img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/@mukama_steven)
+<br>
+<img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn](https://www.linkedin.com/in/stevenmukama/)
 
-- GitHub: [@githubhandle]()
-- LinkedIn: [LinkedIn]()
 
 
 
@@ -148,7 +154,7 @@ To run tests, run the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Not decided]**
+- [ ] **[Add Dragon]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -203,6 +209,6 @@ I would like to thank my Partner for great collaboration @Ade179
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](https://github.com/Lucash2022/React-Group-Project/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
