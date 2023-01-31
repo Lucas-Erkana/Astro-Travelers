@@ -2,10 +2,9 @@
 
 <div align="center">
 
-  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Microverse</b></h3>
+
+  <h3><b>Astro Travellers'</b></h3>
 
 </div>
 
@@ -34,10 +33,10 @@
 - [📝 License](#license)
 
 
-# 📖 AstroTravellers <a name="about-project"></a>
+# 📖 Astro Travellers' <a name="about-project"></a>
 
 
-**AstroTravellers** is a react and redux based application that also links to other components but on a single page
+**Astro Travellers'** is a react and redux based application that also links to other components but on a single page
 
 ## 🛠 Built With <a name="ReactJS and Redux">
 
