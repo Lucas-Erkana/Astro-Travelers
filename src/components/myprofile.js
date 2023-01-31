@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './myprofiles.css';
 import './myprofile.css';
 import styles from './myprofile.module.css';
 
