@@ -4,17 +4,17 @@
   box-sizing: border-box;
 }
 
-.profile_container {
+.profile-container {
   display: flex;
   gap: 1rem;
 }
 
-.reserved_dragons {
+.reserved-dragons {
   margin-left: 2.5rem;
   width: 30%;
 }
 
-.dragons_list {
+.dragons-list {
   display: flex;
   flex-direction: column;
   border: 1px solid #bdbcbc;
@@ -24,13 +24,13 @@
   margin-top: 1rem;
 }
 
-.dragons_list li {
+.dragons-list li {
   padding: 0.7rem;
   display: flex;
   justify-content: flex-start;
   width: 100%;
 }
 
-.dragons_list li:first-child {
+.dragons-list li:first-child {
   border-bottom: 1px solid #bdbcbc;
 }

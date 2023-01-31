@@ -22,12 +22,11 @@
   margin-left: 1rem;
 }
 
-.missionList {
+.mission-list {
   border: 1px solid grey;
   padding: 0.7rem;
   width: 100%;
 }
-
 
 .table1 {
   width: 100%;
@@ -43,4 +42,3 @@
   border: 1px solid #bdbcbc;
   padding: 0.8rem;
 }
-
