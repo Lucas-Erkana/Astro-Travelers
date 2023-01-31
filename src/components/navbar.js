@@ -9,7 +9,7 @@ import Myprofile from './myprofile';
 import Logo from '../images/planet.png';
 import styles from './navbar.module.css';
 
-const Navbar = function () {
+const Navbar = function Navbar() {
   return (
     <Router>
       <div>
