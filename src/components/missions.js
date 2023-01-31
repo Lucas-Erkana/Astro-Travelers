@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchMissionApi } from '../redux/missions/mission';
 import Mission from './mission';
 
-const Missions = () => {
+function Missions() {
   const missions = useSelector((state) => state.missions);
   const dispatch = useDispatch();
 
@@ -37,6 +37,6 @@ const Missions = () => {
       </table>
     </div>
   );
-};
+}
 
 export default Missions;

@@ -8,53 +8,55 @@ import Myprofile from './myprofile';
 import Logo from '../images/planet.png';
 import styles from './navbar.module.css';
 
-const Navbar = () => (
-  <Router>
-    <div>
-      <nav className={styles.navbar}>
-        <div className={styles.logo}>
-          <img className={styles.logoImg} src={Logo} alt="logo" />
-          <h1 className={styles.logo_text}>Astro Travellers&apos;</h1>
-        </div>
-        <div className={styles.ul_list}>
-          <ul className={styles.ul}>
-            <li>
-              <Link
-                style={{ textDecoration: 'none' }}
-                className={styles.rockets}
-                to="/"
-              >
+function Navbar() {
+  return (
+    <Router>
+      <div>
+        <nav className={styles.navbar}>
+          <div className={styles.logo}>
+            <img className={styles.logoImg} src={Logo} alt="logo" />
+            <h1 className={styles.logo_text}>Astro Travellers&apos;</h1>
+          </div>
+          <div className={styles.ul_list}>
+            <ul className={styles.ul}>
+              <li>
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  className={styles.rockets}
+                  to="/"
+                >
                 Rockets
-              </Link>
-            </li>
-            <li>
-              <Link
-                style={{ textDecoration: 'none' }}
-                className={styles.missions}
-                to="/Missions"
-              >
+                </Link>
+              </li>
+              <li>
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  className={styles.missions}
+                  to="/Missions"
+                >
                 Missions
-              </Link>
-            </li>
-            <li className={styles.dragons_cont}>
-              <Link
-                style={{ textDecoration: 'none' }}
-                className={styles.dragons}
-                to="/Profile"
-              >
+                </Link>
+              </li>
+              <li className={styles.dragons_cont}>
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  className={styles.dragons}
+                  to="/Profile"
+                >
                 My Profile
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Rockets />} />
-        <Route path="/Missions" element={<Missions />} />
-        <Route path="/Profile" element={<Myprofile />} />
-      </Routes>
-    </div>
-  </Router>
-);
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Rockets />} />
+          <Route path="/Missions" element={<Missions />} />
+          <Route path="/Profile" element={<Myprofile />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
 
 export default Navbar;

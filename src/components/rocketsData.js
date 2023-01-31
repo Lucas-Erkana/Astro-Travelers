@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { reserveRocket, cancelReservation } from '../redux/rockets/rocketSlice';
 import './rockets.css';
 
-const RocketsData = (props) => {
+function RocketsData(props) {
   const dispatch = useDispatch();
   const {
     name, description, img, id, reserved,
@@ -47,7 +47,7 @@ const RocketsData = (props) => {
     </div>
 
   );
-};
+}
 
 RocketsData.propTypes = {
   name: PropTypes.string,

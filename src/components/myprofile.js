@@ -4,7 +4,7 @@ import './myprofiles.css';
 import './myprofile.css';
 import styles from './myprofile.module.css';
 
-const Myprofile = () => {
+function Myprofile() {
   const missionsData = useSelector((state) => state.missions);
   const rocketsData = useSelector((state) => state.rockets);
 
@@ -35,5 +35,5 @@ const Myprofile = () => {
 
     </div>
   );
-};
+}
 export default Myprofile;
