@@ -25,7 +25,7 @@ function Navbar() {
                   className={styles.rockets}
                   to="/"
                 >
-                Rockets
+                  Rockets
                 </Link>
               </li>
               <li>
@@ -34,7 +34,7 @@ function Navbar() {
                   className={styles.missions}
                   to="/Missions"
                 >
-                Missions
+                  Missions
                 </Link>
               </li>
               <li className={styles.dragons_cont}>
@@ -43,7 +43,7 @@ function Navbar() {
                   className={styles.dragons}
                   to="/Profile"
                 >
-                My Profile
+                  My Profile
                 </Link>
               </li>
             </ul>
