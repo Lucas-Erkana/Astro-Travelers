@@ -46,42 +46,17 @@ ul {
   text-decoration: none;
 }
 
-.rockets {
-  text-decoration: none;
-}
-
-.rockets:focus {
-  color: #1111e4;
-}
-
-.missions {
-  text-decoration: none;
-}
-
-.missions:focus {
-  color: #1111e4;
-}
-
-.dragons_cont {
-  display: flex;
-  flex-direction: column;
-  width: 7rem;
-  border-left: 3px solid #979696;
-  padding-left: 2rem;
-}
-
-.dragonss {
-  text-decoration: none;
-}
-
-.dragonss:focus {
-  color: #1111e4;
-}
-
+.rockets,
+.missions,
 .dragons {
   text-decoration: none;
+  color: #000;
 }
 
+.rockets:focus,
+.missions:focus,
 .dragons:focus {
   color: #1111e4;
+  text-decoration: underline;
+  border-bottom: 5px solid #1111e4;
 }
