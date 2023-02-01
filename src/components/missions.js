@@ -1,10 +1,9 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchMissionApi } from '../redux/missions/mission';
 import Mission from './mission';
 
-function Missions() {
+const Missions = () => {
   const missions = useSelector((state) => state.missions);
   const dispatch = useDispatch();
 
@@ -12,7 +11,7 @@ function Missions() {
     if (missions.length === 0) {
       dispatch(fetchMissionApi());
     }
-  }, []);
+  }, [dispatch, missions.length]);
 
   return (
     <div className="Missions-container">
@@ -37,6 +36,6 @@ function Missions() {
       </table>
     </div>
   );
-}
+};
 
 export default Missions;

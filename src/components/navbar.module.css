@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.logo-img {
+.logoImg {
   display: flex;
   width: 3rem;
 }
@@ -62,7 +62,7 @@ ul {
   color: #1111e4;
 }
 
-.dragons-cont {
+.dragons_cont {
   display: flex;
   flex-direction: column;
   width: 7rem;

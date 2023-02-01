@@ -4,28 +4,9 @@
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-}
-
-.containers {
-  display: flex;
-  flex-direction: column;
-  padding: 0.3%;
-  margin-top: 1rem;
-}
-
 .rocket-contain {
   width: 30%;
   margin-left: 1rem;
-}
-
-.mission-list {
-  border: 1px solid grey;
-  padding: 0.7rem;
-  width: 100%;
 }
 
 .table1 {

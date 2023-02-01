@@ -4,52 +4,52 @@
   box-sizing: border-box;
 }
 
-.dragon-card {
+.dragon_card {
   background-color: #fff;
   padding: 1rem;
 }
 
-.dragon-card-min {
+.dragon_card_min {
   display: flex;
 }
 
-.dragon-img {
+.dragon_img {
   width: 30%;
   height: 15rem;
   padding-right: 1rem;
 }
 
-.dragon-data {
+.dragon_data {
   display: flex;
   flex-direction: column;
   padding-bottom: 4rem;
   justify-content: space-around;
 }
 
-.dragon-data p {
+.dragon_data p {
   margin-top: 0.7rem;
 }
 
-.reserve-badge {
+.reserve_badge {
   text-align: center;
   border: none;
   border-radius: 5px;
-  padding: 0 0.3rem 0.25rem;
+  padding: 0 0.3rem 0.25rem 0.3rem;
   background-color: #4ec1ba;
   color: #fff;
-  box-shadow: 6px 6px 10px -1px rgb(0 0 0 / 15%), -6px -6px 10px -1px rgb(255 255 255 / 70%);
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
-.reserve-btn {
+.reserve_btn {
   border: none;
   border-radius: 5px;
   padding: 0.5rem;
   background-color: #2c94f0;
   color: #fff;
-  box-shadow: 6px 6px 10px -1px rgb(0 0 0 / 15%), -6px -6px 10px -1px rgb(255 255 255 / 70%);
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
-.cancel-btn {
+.cancel_btn {
   border-radius: 5px;
   padding: 0.5rem;
   font-weight: 600;

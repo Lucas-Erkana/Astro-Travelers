@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { joinMission, leaveMission } from '../redux/missions/mission';
 import './missions.css';
 
-function Mission(props) {
+const Mission = (props) => {
   const {
     id, name, description, reserved,
   } = props;
@@ -34,7 +34,7 @@ function Mission(props) {
       </td>
     </tr>
   );
-}
+};
 
 Mission.propTypes = {
   id: PropTypes.string.isRequired,

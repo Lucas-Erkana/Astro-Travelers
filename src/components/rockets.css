@@ -32,7 +32,7 @@
   padding: 0.5rem;
   background-color: #2c94f0;
   color: #fff;
-  box-shadow: 6px 6px 10px -1px rgb(0 0 0 / 15%), -6px -6px 10px -1px rgb(255 255 255 / 70%);
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
 .cancel-btn {
@@ -47,12 +47,12 @@
   text-align: center;
   border: none;
   border-radius: 5px;
-  padding: 0 0.3rem 0.25rem;
+  padding: 0 0.3rem 0.25rem 0.3rem;
   background-color: #4ec1ba;
   color: #fff;
   margin-right: 0.4rem;
   margin-bottom: 0.5rem;
-  box-shadow: 6px 6px 10px -1px rgb(0 0 0 / 15%), -6px -6px 10px -1px rgb(255 255 255 / 70%);
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 
 .paragraph {

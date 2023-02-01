@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import DragonssData from '../components/DragonssData';
 import { fetchDragons } from '../redux/dragons/dragonsSlice';
 
-function Dragons() {
+const Dragons = () => {
   const dispatch = useDispatch();
   const shouldFetch = useRef(true);
   const dragonsArr = useSelector((state) => state.dragons);
@@ -31,5 +31,5 @@ function Dragons() {
     );
   }
   return '';
-}
+};
 export default Dragons;
