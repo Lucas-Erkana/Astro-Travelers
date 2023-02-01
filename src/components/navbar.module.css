@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #b6b5b5;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImg {
+  display: flex;
+  width: 3rem;
+}
+
+.logo-text {
+  display: flex;
+}
+
+.ul-list {
+  display: flex;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.rockets,
+.missions,
+.dragons {
+  text-decoration: none;
+  color: #000;
+}
+
+.rockets:focus,
+.missions:focus,
+.dragons:focus {
+  color: #1111e4;
+  text-decoration: underline;
+  border-bottom: 5px solid #1111e4;
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.logoImg {
+  display: flex;
+  flex-direction: row;
+  width: 70px;
+  height: 70px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.ul-list {
+  display: flex;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.rockets:active {
+  color: #4141ff;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.missions:active {
+  color: #4141ff;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.dragonss:active {
+  color: #4141ff;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.dragons:active {
+  color: #4141ff;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 2rem;
+  background-color: rgb(145, 145, 145);
+}
+
+.horizental-line {
+  display: flex;
+  width: 90%;
+  height: 2px;
+  background-color: rgb(145, 145, 145);
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
