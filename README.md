@@ -36,7 +36,7 @@
 # 📖 Astro Travellers' <a name="about-project"></a>
 
 
-**Astro Travellers'** is a react and redux based application that also links to other components but on a single page
+In this project I collaborated with Steven Mukama to work with real live data from the SpaceX API. Our task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
 ## 🛠 Built With <a name="ReactJS and Redux">
 
