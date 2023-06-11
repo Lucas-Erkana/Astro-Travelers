@@ -73,9 +73,7 @@ In this project I collaborated with Steven Mukama to work with real live data fr
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo" >N/A</a>
-
-> Add a link to your deployed project.
+## 🚀 Live Demo <a name="live-demo" ></a>
 
 - <a href="https://astro-ravellers.onrender.com" target="_blank">Live Demo Link</a>
 
