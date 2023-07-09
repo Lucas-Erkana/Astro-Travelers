@@ -75,7 +75,7 @@ In this project I collaborated with Steven Mukama to work with real live data fr
 
 ## 🚀 Live Demo <a name="live-demo" ></a>
 
-- <a href="https://astro-ravellers.onrender.com" target="_blank">Live Demo Link</a>
+- <a href="https://astro-travelers.onrender.com/" target="_blank">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
