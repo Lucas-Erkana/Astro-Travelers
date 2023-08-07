@@ -125,7 +125,7 @@ To run tests, run the following command:
 
 <h4>Lucas Erkana</h4>
 
-<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucash2022)
+<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucas-Erkana)
 <br>
 <img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/@Lucas_David_22)
 <br>
@@ -207,6 +207,6 @@ I would like to thank my Partner for great collaboration @Ade179
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Lucash2022/React-Group-Project/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/Lucas-Erkana/React-Group-Project/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
